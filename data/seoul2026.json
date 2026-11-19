@@ -1,0 +1,1337 @@
+{
+  "schemaVersion": 1,
+  "id": "seoul-family-2026",
+  "name": "2026 首爾冬日暖心家族旅行",
+  "destination": "首爾・京畿道・江原道",
+  "country": "韓國",
+  "startDate": "2026-12-16",
+  "endDate": "2026-12-20",
+  "timezone": "Asia/Seoul",
+  "currency": "KRW",
+  "settlementCurrency": "TWD",
+  "exchangeRates": {
+    "KRW_TWD": null
+  },
+  "travellers": {
+    "adults": 7,
+    "children": [
+      2.5,
+      8,
+      10
+    ]
+  },
+  "lodging": "LEEJAE Hotel・東大門",
+  "dayHours": {
+    "start": "07:00",
+    "end": "22:00"
+  },
+  "events": [
+    {
+      "id": "d1-arrival",
+      "date": "2026-12-16",
+      "start": "16:00",
+      "durationMinutes": 60,
+      "category": "flight",
+      "title": "抵達仁川機場・通關領行李",
+      "placeName": "仁川國際機場",
+      "address": "Incheon International Airport, Incheon, Republic of Korea",
+      "locationId": "icn",
+      "lat": 37.4602,
+      "lng": 126.4407,
+      "notes": "原手冊抵達 16:00，未附航班編號或訂位確認。幼童與長輩分工通關；通關時間僅暫排。",
+      "group": "all",
+      "visualKey": "plane",
+      "visualPriority": 115,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d1-bus",
+      "date": "2026-12-16",
+      "start": "17:00",
+      "durationMinutes": 75,
+      "category": "transport",
+      "title": "機場巴士 6002 → 東大門",
+      "placeName": "東大門／興仁之門",
+      "address": "Heunginjimun Gate, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "dongdaemun",
+      "lat": 37.5711,
+      "lng": 127.0095,
+      "notes": "仁川 T1／T2 上車點與售票方式依航廈確認；T2 需先購票。手冊預估 75 分鐘，不保證車程。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "https://airportlimousine.co.kr/en/sub/sub01.php?cat_no=6",
+      "cost": {
+        "currency": "KRW",
+        "items": [
+          {
+            "id": "adult",
+            "label": "成人票",
+            "unit": "perPerson",
+            "unitPrice": 17000,
+            "quantity": 7
+          },
+          {
+            "id": "child",
+            "label": "6–12 歲兒童票",
+            "unit": "perPerson",
+            "unitPrice": 12000,
+            "quantity": 2
+          }
+        ],
+        "status": "estimated",
+        "note": "官方公布成人／兒童票價；合計依 7 大 2 小推算，2.5 歲幼童是否佔座／收費請確認。"
+      },
+      "transportMode": "bus"
+    },
+    {
+      "id": "d1-hotel",
+      "date": "2026-12-16",
+      "start": "18:15",
+      "durationMinutes": 30,
+      "category": "lodging",
+      "title": "LEEJAE 飯店 Check-in",
+      "placeName": "LEEJAE Hotel",
+      "address": "LEEJAE Hotel, Dongdaemun, Seoul, Republic of Korea",
+      "locationId": "hotel",
+      "lat": null,
+      "lng": null,
+      "notes": "東大門住宿基地。精確地址、房型與預訂編號尚未提供。",
+      "group": "all",
+      "visualKey": "hotel",
+      "visualPriority": 50,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d1-exchange",
+      "date": "2026-12-16",
+      "start": "18:45",
+      "durationMinutes": 45,
+      "category": "spot",
+      "title": "明洞換匯・先辦現金",
+      "placeName": "明洞",
+      "address": "Myeong-dong, Jung-gu, Seoul, Republic of Korea",
+      "locationId": "myeongdong",
+      "lat": 37.5636,
+      "lng": 126.9834,
+      "notes": "原手冊 18:45–21:00 為換匯＋Olive Young；為方便編輯拆分時段，45 分鐘是規劃假設，換錢所營業時間待確認。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d1-dinner",
+      "date": "2026-12-16",
+      "start": "19:30",
+      "durationMinutes": 60,
+      "category": "food",
+      "title": "明洞晚餐（三選一）",
+      "placeName": "明洞",
+      "address": "Myeong-dong, Jung-gu, Seoul, Republic of Korea",
+      "locationId": "myeongdong",
+      "lat": 37.5636,
+      "lng": 126.9834,
+      "notes": "荒謬的生肉／明洞亭／本粥／明洞餃子，視孩童體力決定。時間為從手冊整段拆分的假設。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d1-shopping",
+      "date": "2026-12-16",
+      "start": "20:30",
+      "durationMinutes": 30,
+      "category": "spot",
+      "title": "Olive Young 採買",
+      "placeName": "明洞",
+      "address": "Myeong-dong, Jung-gu, Seoul, Republic of Korea",
+      "locationId": "myeongdong",
+      "lat": 37.5636,
+      "lng": 126.9834,
+      "notes": "實際分店營業時間待查，疲累時可取消。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d1-return",
+      "date": "2026-12-16",
+      "start": "21:30",
+      "durationMinutes": 30,
+      "category": "transport",
+      "title": "返回東大門飯店",
+      "placeName": "LEEJAE Hotel",
+      "address": "LEEJAE Hotel, Dongdaemun, Seoul, Republic of Korea",
+      "locationId": "hotel",
+      "lat": null,
+      "lng": null,
+      "notes": "原手冊記載包車返回，車資與預約均未提供。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": "taxi"
+    },
+    {
+      "id": "d2-breakfast",
+      "date": "2026-12-17",
+      "start": "07:45",
+      "durationMinutes": 45,
+      "category": "food",
+      "title": "東大門 Isaac Toast 早餐",
+      "placeName": "東大門／興仁之門",
+      "address": "Heunginjimun Gate, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "dongdaemun",
+      "lat": 37.5711,
+      "lng": 127.0095,
+      "notes": "可派 1–2 位大人外帶回飯店，避免全團久候。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d2-palace",
+      "date": "2026-12-17",
+      "start": "08:30",
+      "durationMinutes": 180,
+      "category": "spot",
+      "title": "景福宮・韓服體驗",
+      "placeName": "景福宮",
+      "address": "Gyeongbokgung Palace, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "gyeongbok",
+      "lat": 37.5796,
+      "lng": 126.977,
+      "notes": "原手冊 08:30–11:30 包含轉乘與景點體驗；官方 12 月開門 09:00，需保留移動時間。從東大門轉乘 1、3 號線的路線與電梯位置待複核。",
+      "group": "all",
+      "visualKey": "palace",
+      "visualPriority": 120,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "https://royal.khs.go.kr/ENG/contents/E702000000.do",
+      "cost": {
+        "currency": "KRW",
+        "items": [
+          {
+            "id": "adult",
+            "label": "一般成人票（穿韓服可能免票）",
+            "unit": "perPerson",
+            "unitPrice": 3000,
+            "quantity": 7
+          }
+        ],
+        "status": "estimated",
+        "note": "官方成人票價為 ₩3,000；團票、韓服免票與高齡優惠未確認，這是一般票情境試算。"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d2-bukchon",
+      "date": "2026-12-17",
+      "start": "11:30",
+      "durationMinutes": 45,
+      "category": "spot",
+      "title": "北村韓屋村・輕鬆散步",
+      "placeName": "北村韓屋村",
+      "address": "Bukchon Hanok Village, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "bukchon",
+      "lat": 37.5824,
+      "lng": 126.9835,
+      "notes": "長輩與推車以外圍平坦路段為主，坡路可跳過。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d2-lunch",
+      "date": "2026-12-17",
+      "start": "12:30",
+      "durationMinutes": 90,
+      "category": "food",
+      "title": "益善洞／仁寺洞午餐",
+      "placeName": "仁寺洞／益善洞",
+      "address": "Insadong, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "insadong",
+      "lat": 37.573,
+      "lng": 126.986,
+      "notes": "昌華堂或智異山二選一；飯後可留咖啡休息時間。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d2-market",
+      "date": "2026-12-17",
+      "start": "14:30",
+      "durationMinutes": 120,
+      "category": "spot",
+      "title": "廣藏市場・棉被與小吃",
+      "placeName": "廣藏市場",
+      "address": "Gwangjang Market, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "gwangjang",
+      "lat": 37.57,
+      "lng": 126.9996,
+      "notes": "棉被店 88、128 號（未查證），綠豆煎餅、麻藥飯捲、魚板湯。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d2-square",
+      "date": "2026-12-17",
+      "start": "17:00",
+      "durationMinutes": 60,
+      "category": "spot",
+      "title": "首爾廣場・市政廳前聖誕布置",
+      "placeName": "首爾廣場",
+      "address": "Seoul Plaza, Jung-gu, Seoul, Republic of Korea",
+      "locationId": "seoulplaza",
+      "lat": 37.5657,
+      "lng": 126.978,
+      "notes": "原手冊 17:00–18:30 是首爾廣場＋燈節的合併時段；這裡拆成 17:00–18:00。",
+      "group": "all",
+      "visualKey": "lights",
+      "visualPriority": 60,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d2-festival",
+      "date": "2026-12-17",
+      "start": "18:00",
+      "durationMinutes": 30,
+      "category": "spot",
+      "title": "清溪川首爾燈節",
+      "placeName": "清溪川燈節",
+      "address": "Cheonggye Plaza, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "lantern",
+      "lat": 37.5692,
+      "lng": 126.9774,
+      "notes": "官方公告 2026/12/11–2027/01/31、每日 18:00–23:00、免費。擁擠時照顧推車與幼兒。",
+      "group": "all",
+      "visualKey": "lights",
+      "visualPriority": 110,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "https://english.visitseoul.net/eventsx/2026SeoulLanternFestival/ENPi0rhml",
+      "cost": {
+        "currency": "KRW",
+        "items": [
+          {
+            "id": "free",
+            "label": "免費入場",
+            "unit": "perGroup",
+            "unitPrice": 0,
+            "quantity": 1
+          }
+        ],
+        "status": "verified"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d2-dinner",
+      "date": "2026-12-17",
+      "start": "19:00",
+      "durationMinutes": 90,
+      "category": "food",
+      "title": "東大門晚餐・一隻雞",
+      "placeName": "東大門／興仁之門",
+      "address": "Heunginjimun Gate, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "dongdaemun",
+      "lat": 37.5711,
+      "lng": 127.0095,
+      "notes": "陳玉華一隻雞或孔陵一隻雞；順買隔日早餐麵包。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d3-breakfast",
+      "date": "2026-12-18",
+      "start": "07:00",
+      "durationMinutes": 30,
+      "category": "food",
+      "title": "飯店吃麵包・包車集合",
+      "placeName": "LEEJAE Hotel",
+      "address": "LEEJAE Hotel, Dongdaemun, Seoul, Republic of Korea",
+      "locationId": "hotel",
+      "lat": null,
+      "lng": null,
+      "notes": "原手冊 07:30 準時包車出發，包車預訂尚未提供。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d3-eobi",
+      "date": "2026-12-18",
+      "start": "09:00",
+      "durationMinutes": 60,
+      "category": "spot",
+      "title": "魚飛冰谷・冬季冰瀑",
+      "placeName": "魚飛冰谷",
+      "address": "Eobi Ice Valley, Gapyeong-gun, Gyeonggi-do, Republic of Korea",
+      "locationId": "eobi",
+      "lat": null,
+      "lng": null,
+      "notes": "冰面濕滑，請確認開放狀況及帶防滑鞋。包車移動時間依手冊約 07:30–09:00，尚未由路況驗證。",
+      "group": "all",
+      "visualKey": "snow",
+      "visualPriority": 80,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d3-nami",
+      "date": "2026-12-18",
+      "start": "10:30",
+      "durationMinutes": 180,
+      "category": "spot",
+      "title": "南怡島散步＋島上午餐",
+      "placeName": "南怡島",
+      "address": "Nami Island, Chuncheon-si, Gangwon-do, Republic of Korea",
+      "locationId": "nami",
+      "lat": 37.7903,
+      "lng": 127.525,
+      "notes": "含登島船票與島內用餐，餐廳候選「戀歌之家」或春川辣炒雞；天氣影響可行性。",
+      "group": "all",
+      "visualKey": "pine",
+      "visualPriority": 92,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d3-rail",
+      "date": "2026-12-18",
+      "start": "14:30",
+      "durationMinutes": 120,
+      "category": "spot",
+      "title": "江村鐵道自行車",
+      "placeName": "江村鐵道自行車",
+      "address": "Gangchon Rail Park, Gimyujeong Station, Chuncheon-si, Gangwon-do, Republic of Korea",
+      "locationId": "rail",
+      "lat": 37.8185,
+      "lng": 127.7192,
+      "notes": "【重要】原手冊計畫 4 人座×2＋2 人座×1、2.5 歲幼童抱乘。業者官方頁面對幼兒與混用車型資訊不一致，務必確認能否登車、是否要改分組、冬季班次及預約。官方建議至少提前 20 分鐘報到。",
+      "group": "all",
+      "visualKey": "bike",
+      "visualPriority": 125,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "https://en.railpark.co.kr/reserve/guide",
+      "cost": {
+        "currency": "KRW",
+        "items": [
+          {
+            "id": "four",
+            "label": "4 人座車",
+            "unit": "perCar",
+            "unitPrice": 56000,
+            "quantity": 2
+          },
+          {
+            "id": "two",
+            "label": "2 人座車",
+            "unit": "perCar",
+            "unitPrice": 40000,
+            "quantity": 1
+          }
+        ],
+        "status": "scenario",
+        "note": "原手冊配置的價格試算，車型混用與幼兒資格有官方資訊衝突，尚不可當作可訂方案。"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d3-dinner",
+      "date": "2026-12-18",
+      "start": "18:30",
+      "durationMinutes": 120,
+      "category": "food",
+      "title": "東大門晚餐＋自由逛街",
+      "placeName": "東大門設計廣場",
+      "address": "Dongdaemun Design Plaza, Jung-gu, Seoul, Republic of Korea",
+      "locationId": "ddp",
+      "lat": 37.567,
+      "lng": 127.0095,
+      "notes": "滿足五香豬腳或橋村炸雞；可逛 DDP 或 Outlet。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d3-spa",
+      "date": "2026-12-18",
+      "start": "21:00",
+      "durationMinutes": 90,
+      "category": "spot",
+      "title": "SPAREX 汗蒸幕（自由參加）",
+      "placeName": "東大門設計廣場",
+      "address": "Dongdaemun Design Plaza, Jung-gu, Seoul, Republic of Korea",
+      "locationId": "ddp",
+      "lat": 37.567,
+      "lng": 127.0095,
+      "notes": "選擇性活動；幼童與分組照護依場館規範確認。",
+      "group": "optional",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d4-breakfast",
+      "date": "2026-12-19",
+      "start": "08:15",
+      "durationMinutes": 60,
+      "category": "food",
+      "title": "東大門早餐（粥／飯捲）",
+      "placeName": "東大門／興仁之門",
+      "address": "Heunginjimun Gate, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "dongdaemun",
+      "lat": 37.5711,
+      "lng": 127.0095,
+      "notes": "本粥或紫菜包飯天國。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d4-busA",
+      "date": "2026-12-19",
+      "start": "09:30",
+      "durationMinutes": 30,
+      "category": "transport",
+      "title": "A 組：前往新論峴",
+      "placeName": "新論峴／醫美診所",
+      "address": "Sinnonhyeon Station, Gangnam-gu, Seoul, Republic of Korea",
+      "locationId": "gangnam",
+      "lat": 37.5046,
+      "lng": 127.0255,
+      "notes": "原手冊建議 140／420 號巴士，車程與停靠站需複核。",
+      "group": "A",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": "bus"
+    },
+    {
+      "id": "d4-busB",
+      "date": "2026-12-19",
+      "start": "09:30",
+      "durationMinutes": 30,
+      "category": "transport",
+      "title": "B 組：前往 COEX",
+      "placeName": "COEX Mall",
+      "address": "Starfield COEX Mall, Gangnam-gu, Seoul, Republic of Korea",
+      "locationId": "coex",
+      "lat": 37.5115,
+      "lng": 127.0594,
+      "notes": "原手冊建議 301／144 號公車，車程與停靠站需複核。",
+      "group": "B",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": "bus"
+    },
+    {
+      "id": "d4-clinic",
+      "date": "2026-12-19",
+      "start": "10:00",
+      "durationMinutes": 150,
+      "category": "spot",
+      "title": "A 組：林克醫美・諮詢／療程",
+      "placeName": "新論峴／醫美診所",
+      "address": "Sinnonhyeon Station, Gangnam-gu, Seoul, Republic of Korea",
+      "locationId": "gangnam",
+      "lat": 37.5046,
+      "lng": 127.0255,
+      "notes": "尚無診所確切地址或預約資料；確認後才鎖定。",
+      "group": "A",
+      "visualKey": "building",
+      "visualPriority": 55,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d4-aquarium",
+      "date": "2026-12-19",
+      "start": "10:00",
+      "durationMinutes": 150,
+      "category": "spot",
+      "title": "B 組：COEX 水族館",
+      "placeName": "COEX Mall",
+      "address": "Starfield COEX Mall, Gangnam-gu, Seoul, Republic of Korea",
+      "locationId": "coex",
+      "lat": 37.5115,
+      "lng": 127.0594,
+      "notes": "長輩與三位小孩的室內行程；年齡票價與營業時間待核。",
+      "group": "B",
+      "visualKey": "fish",
+      "visualPriority": 85,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d4-lunch",
+      "date": "2026-12-19",
+      "start": "12:30",
+      "durationMinutes": 90,
+      "category": "food",
+      "title": "A／B 兩組 COEX 會合午餐",
+      "placeName": "COEX Mall",
+      "address": "Starfield COEX Mall, Gangnam-gu, Seoul, Republic of Korea",
+      "locationId": "coex",
+      "lat": 37.5115,
+      "lng": 127.0594,
+      "notes": "商場餐廳或美食街，預留兒童餐椅需求。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d4-shopping",
+      "date": "2026-12-19",
+      "start": "14:00",
+      "durationMinutes": 120,
+      "category": "spot",
+      "title": "COEX／現代百貨超市採買",
+      "placeName": "COEX Mall",
+      "address": "Starfield COEX Mall, Gangnam-gu, Seoul, Republic of Korea",
+      "locationId": "coex",
+      "lat": 37.5115,
+      "lng": 127.0594,
+      "notes": "採買伴手禮與休息。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d4-sky",
+      "date": "2026-12-19",
+      "start": "16:30",
+      "durationMinutes": 120,
+      "category": "spot",
+      "title": "Seoul Sky 高空觀景台",
+      "placeName": "樂天世界塔",
+      "address": "Lotte World Tower, Songpa-gu, Seoul, Republic of Korea",
+      "locationId": "lotte",
+      "lat": 37.5126,
+      "lng": 127.1025,
+      "notes": "原手冊「Seoul Sky 或首爾塔」二選一，這裡暫以 Seoul Sky 為主方案；票價及日落時段待核。",
+      "group": "all",
+      "visualKey": "tower",
+      "visualPriority": 125,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d4-dinner",
+      "date": "2026-12-19",
+      "start": "19:00",
+      "durationMinutes": 120,
+      "category": "food",
+      "title": "東大門晚餐＋最後補貨",
+      "placeName": "東大門／興仁之門",
+      "address": "Heunginjimun Gate, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "dongdaemun",
+      "lat": 37.5711,
+      "lng": 127.0095,
+      "notes": "八色烤肉或新村食堂；清涼里 Lotte Mart 是可選額外採買，商場營業時間待確認。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d5-brunch",
+      "date": "2026-12-20",
+      "start": "08:30",
+      "durationMinutes": 120,
+      "category": "food",
+      "title": "東大門早午餐＋行李整理",
+      "placeName": "東大門／興仁之門",
+      "address": "Heunginjimun Gate, Jongno-gu, Seoul, Republic of Korea",
+      "locationId": "dongdaemun",
+      "lat": 37.5711,
+      "lng": 127.0095,
+      "notes": "元堂脊骨土豆湯或神仙雪濃湯；預留整理戰利品時間。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d5-airport-transfer",
+      "date": "2026-12-20",
+      "start": "10:45",
+      "durationMinutes": 90,
+      "category": "transport",
+      "title": "退房・前往仁川機場",
+      "placeName": "仁川國際機場",
+      "address": "Incheon International Airport, Incheon, Republic of Korea",
+      "locationId": "icn",
+      "lat": 37.4602,
+      "lng": 126.4407,
+      "notes": "【手冊衝突】總覽寫機場巴士 6002；Day5 詳細寫「兩台包車」。此處先依詳細行程排包車，但車型、費用與是否預訂尚需確認。",
+      "group": "all",
+      "visualKey": null,
+      "visualPriority": 0,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": "taxi"
+    },
+    {
+      "id": "d5-checkin",
+      "date": "2026-12-20",
+      "start": "12:15",
+      "durationMinutes": 150,
+      "category": "flight",
+      "title": "仁川機場報到・退稅・安檢",
+      "placeName": "仁川國際機場",
+      "address": "Incheon International Airport, Incheon, Republic of Korea",
+      "locationId": "icn",
+      "lat": 37.4602,
+      "lng": 126.4407,
+      "notes": "行李與退稅、幼兒 Fast Track 資格依航司與機場當日規範確認；此行程非航班訂位證明。",
+      "group": "all",
+      "visualKey": "plane",
+      "visualPriority": 50,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    },
+    {
+      "id": "d5-depart",
+      "date": "2026-12-20",
+      "start": "15:00",
+      "durationMinutes": 90,
+      "category": "flight",
+      "title": "預計起飛・返回台灣",
+      "placeName": "仁川國際機場",
+      "address": "Incheon International Airport, Incheon, Republic of Korea",
+      "locationId": "icn",
+      "lat": 37.4602,
+      "lng": 126.4407,
+      "notes": "原手冊記載 15:00 起飛，未提供航班編號／機場航廈／登機時間；時長 90 分鐘是網站顯示用暫排，非航程。",
+      "group": "all",
+      "visualKey": "plane",
+      "visualPriority": 150,
+      "locked": false,
+      "bookingStatus": "unverified",
+      "sourceUrl": "",
+      "cost": {
+        "currency": "KRW",
+        "items": [],
+        "status": "unknown"
+      },
+      "transportMode": null
+    }
+  ],
+  "routeOverrides": {
+    "d3-breakfast=>d3-eobi": {
+      "mode": "charter",
+      "minutes": 90,
+      "status": "estimated",
+      "notes": "依手冊 07:30 出發／09:00 抵達反推；實際車程待查。"
+    },
+    "d3-eobi=>d3-nami": {
+      "mode": "charter",
+      "minutes": 30,
+      "status": "estimated",
+      "notes": "依手冊 10:00→10:30 的空檔暫排。"
+    },
+    "d3-nami=>d3-rail": {
+      "mode": "charter",
+      "minutes": 60,
+      "status": "estimated",
+      "notes": "依手冊 13:30→14:30 空檔反推；另需 20 分鐘報到緩衝。"
+    },
+    "d4-shopping=>d4-sky": {
+      "mode": "subway",
+      "minutes": 30,
+      "status": "estimated",
+      "notes": "估算值，未核班次／進站步行。"
+    },
+    "d1-shopping=>d1-return": {
+      "mode": "taxi",
+      "minutes": 30,
+      "status": "estimated",
+      "notes": "依手冊 21:00–21:30 空檔推估。"
+    }
+  },
+  "packing": [
+    {
+      "id": "pack-001",
+      "category": "證件與金融",
+      "title": "護照正本",
+      "quantity": 10,
+      "notes": "檢查有效期限及實際入境規定",
+      "checked": false
+    },
+    {
+      "id": "pack-002",
+      "category": "證件與金融",
+      "title": "機票與飯店確認單",
+      "quantity": 1,
+      "notes": "確認航班編號、航廈與 LEEJAE 詳細地址",
+      "checked": false
+    },
+    {
+      "id": "pack-003",
+      "category": "證件與金融",
+      "title": "旅平／不便險資料",
+      "quantity": 10,
+      "notes": "含海外醫療與緊急聯絡資訊",
+      "checked": false
+    },
+    {
+      "id": "pack-004",
+      "category": "證件與金融",
+      "title": "信用卡及備用韓幣",
+      "quantity": 1,
+      "notes": "確認海外刷卡功能",
+      "checked": false
+    },
+    {
+      "id": "pack-005",
+      "category": "證件與金融",
+      "title": "e-Arrival Card",
+      "quantity": 10,
+      "notes": "需在入境前 3 天內依適用身分完成；團體可使用官方網站",
+      "checked": false
+    },
+    {
+      "id": "pack-006",
+      "category": "證件與金融",
+      "title": "包車與門票預約單",
+      "quantity": 1,
+      "notes": "郊區包車／江村鐵道自行車／觀景台",
+      "checked": false
+    },
+    {
+      "id": "pack-007",
+      "category": "通訊與 3C",
+      "title": "韓國 eSIM／SIM 卡",
+      "quantity": 7,
+      "notes": "出發前先完成 App 驗證",
+      "checked": false
+    },
+    {
+      "id": "pack-008",
+      "category": "通訊與 3C",
+      "title": "充電器與長充電線",
+      "quantity": 4,
+      "notes": "支援多孔快充、線長 1.5–2 米",
+      "checked": false
+    },
+    {
+      "id": "pack-009",
+      "category": "通訊與 3C",
+      "title": "行動電源",
+      "quantity": 4,
+      "notes": "標示 Wh，禁止託運；依航司規範",
+      "checked": false
+    },
+    {
+      "id": "pack-010",
+      "category": "通訊與 3C",
+      "title": "韓規 C/F 轉接頭",
+      "quantity": 4,
+      "notes": "韓國圓形插座",
+      "checked": false
+    },
+    {
+      "id": "pack-011",
+      "category": "通訊與 3C",
+      "title": "退卡針與小夾鏈袋",
+      "quantity": 2,
+      "notes": "有實體 SIM 者",
+      "checked": false
+    },
+    {
+      "id": "pack-012",
+      "category": "通訊與 3C",
+      "title": "交通卡 T-money",
+      "quantity": 9,
+      "notes": "成人 7 張＋大童 2 張，兒童身分設定待確認",
+      "checked": false
+    },
+    {
+      "id": "pack-013",
+      "category": "冬季保暖",
+      "title": "羽絨外套／保暖衣物",
+      "quantity": 10,
+      "notes": "洋蔥式穿法",
+      "checked": false
+    },
+    {
+      "id": "pack-014",
+      "category": "冬季保暖",
+      "title": "毛帽與圍巾",
+      "quantity": 10,
+      "notes": "帽子遮耳",
+      "checked": false
+    },
+    {
+      "id": "pack-015",
+      "category": "冬季保暖",
+      "title": "防風手套",
+      "quantity": 10,
+      "notes": "Day3 戶外活動",
+      "checked": false
+    },
+    {
+      "id": "pack-016",
+      "category": "冬季保暖",
+      "title": "防滑鞋",
+      "quantity": 10,
+      "notes": "冰谷／北村坡路",
+      "checked": false
+    },
+    {
+      "id": "pack-017",
+      "category": "冬季保暖",
+      "title": "暖暖包",
+      "quantity": 50,
+      "notes": "以每天每人一份暫列，依需求增減",
+      "checked": false
+    },
+    {
+      "id": "pack-018",
+      "category": "冬季保暖",
+      "title": "護唇膏與保濕乳液",
+      "quantity": 10,
+      "notes": "乾燥室內暖氣環境",
+      "checked": false
+    },
+    {
+      "id": "pack-019",
+      "category": "親子用品",
+      "title": "輕便推車＋防風雨罩",
+      "quantity": 1,
+      "notes": "2.5 歲幼童",
+      "checked": false
+    },
+    {
+      "id": "pack-020",
+      "category": "親子用品",
+      "title": "尿布＋濕紙巾",
+      "quantity": 1,
+      "notes": "備足五日",
+      "checked": false
+    },
+    {
+      "id": "pack-021",
+      "category": "親子用品",
+      "title": "保溫水壺與餐具",
+      "quantity": 3,
+      "notes": "視年齡需求",
+      "checked": false
+    },
+    {
+      "id": "pack-022",
+      "category": "親子用品",
+      "title": "零食／安撫玩具",
+      "quantity": 1,
+      "notes": "長途包車與候位備用",
+      "checked": false
+    },
+    {
+      "id": "pack-023",
+      "category": "親子用品",
+      "title": "兒童牙刷牙膏",
+      "quantity": 3,
+      "notes": "熟悉款式",
+      "checked": false
+    },
+    {
+      "id": "pack-024",
+      "category": "醫療與安全",
+      "title": "常備藥／處方藥",
+      "quantity": 1,
+      "notes": "醫囑用藥、退燒、腸胃、暈車",
+      "checked": false
+    },
+    {
+      "id": "pack-025",
+      "category": "醫療與安全",
+      "title": "OK 繃與人工皮",
+      "quantity": 1,
+      "notes": "保暖與防滑應急",
+      "checked": false
+    },
+    {
+      "id": "pack-026",
+      "category": "醫療與安全",
+      "title": "保險救援電話備份",
+      "quantity": 1,
+      "notes": "離線儲存",
+      "checked": false
+    },
+    {
+      "id": "pack-027",
+      "category": "購物與其他",
+      "title": "折疊購物袋",
+      "quantity": 10,
+      "notes": "每人一個",
+      "checked": false
+    },
+    {
+      "id": "pack-028",
+      "category": "購物與其他",
+      "title": "衣物壓縮袋／夾鏈袋",
+      "quantity": 5,
+      "notes": "冬季衣物占空間",
+      "checked": false
+    },
+    {
+      "id": "pack-029",
+      "category": "購物與其他",
+      "title": "行李秤",
+      "quantity": 1,
+      "notes": "回程購物裝箱",
+      "checked": false
+    },
+    {
+      "id": "pack-030",
+      "category": "購物與其他",
+      "title": "成人牙刷牙膏",
+      "quantity": 7,
+      "notes": "確認住宿供應情況",
+      "checked": false
+    },
+    {
+      "id": "pack-031",
+      "category": "購物與其他",
+      "title": "室內拖鞋與替換襪子",
+      "quantity": 10,
+      "notes": "依需求準備",
+      "checked": false
+    }
+  ],
+  "checks": [
+    {
+      "id": "check-rail",
+      "level": "critical",
+      "title": "江村鐵道自行車：2.5 歲幼童與混合車型",
+      "detail": "英文訂位說明禁止 36 個月以下幼兒、2+4 人座同時段混用；韓文 FAQ 允許幼兒具文件簽切結的例外。須先向業者確認再付款，並先驗證 14:30 場次及預留至少 20 分鐘報到。",
+      "source": "https://en.railpark.co.kr/reserve/guide",
+      "status": "pending"
+    },
+    {
+      "id": "check-lasttransport",
+      "level": "critical",
+      "title": "Day 5 交通方式互相矛盾",
+      "detail": "原手冊總覽寫機場巴士 6002，詳細時間表寫兩台包車，暫採詳細時間表。需確認實際方式、上車處、價格與 10 人／行李容量。",
+      "source": "",
+      "status": "pending"
+    },
+    {
+      "id": "check-flights",
+      "level": "critical",
+      "title": "往返航班、機場航廈與預訂憑證",
+      "detail": "原手冊只列 12/16 16:00 抵達、12/20 15:00 起飛，未附航班與航廈；應核對入境通關、巴士銜接、退稅緩衝。",
+      "source": "",
+      "status": "pending"
+    },
+    {
+      "id": "check-hotel",
+      "level": "critical",
+      "title": "LEEJAE 飯店確切地址與訂房憑證",
+      "detail": "僅有名稱與東大門位置，未附可定位地址；地圖顯示鄰近東大門站而不是飯店精確位置。",
+      "source": "",
+      "status": "pending"
+    },
+    {
+      "id": "check-railseason",
+      "level": "warning",
+      "title": "鐵道自行車冬季營運及訂位時段",
+      "detail": "應確認 12/18 14:30 班次、座位數、天候停駛政策。",
+      "source": "https://en.railpark.co.kr/course/gimyujeong/schedule",
+      "status": "pending"
+    },
+    {
+      "id": "check-bus",
+      "level": "warning",
+      "title": "機場巴士 6002 上車點／購票",
+      "detail": "官方顯示成人 ₩17,000、6–12 歲 ₩12,000；仁川 T2 現場先購票，T1 依現場站牌及時刻核對。",
+      "source": "https://airportlimousine.co.kr/en/sub/sub01.php?cat_no=6",
+      "status": "partly_verified"
+    },
+    {
+      "id": "check-palace",
+      "level": "info",
+      "title": "景福宮 12 月營業時間",
+      "detail": "官方 11–12 月 09:00–17:00、16:00 最後入場，週二休；12/17 為週四，請注意 08:30 先用於交通。",
+      "source": "https://royal.khs.go.kr/ENG/contents/E702000000.do",
+      "status": "verified"
+    },
+    {
+      "id": "check-lantern",
+      "level": "info",
+      "title": "12/17 清溪川燈節活動時間",
+      "detail": "2026/12/11–2027/01/31，每晚 18:00–23:00，免費；已將 17:00 先安排首爾廣場，18:00 轉入燈節。",
+      "source": "https://english.visitseoul.net/eventsx/2026SeoulLanternFestival/ENPi0rhml",
+      "status": "verified"
+    },
+    {
+      "id": "check-entry",
+      "level": "warning",
+      "title": "韓國電子入境卡與簽證規定",
+      "detail": "官方 e-Arrival Card 免費、抵達前 3 日內申請；依 10 位旅客身分核對誰需填報。手機一次最多 9 人，建議分批或電腦團體申請。",
+      "source": "https://www.e-arrivalcard.go.kr/portal/guide/eacGuide.do?locale=E",
+      "status": "pending"
+    },
+    {
+      "id": "check-prices",
+      "level": "warning",
+      "title": "韓服、COEX 水族館、Seoul Sky、包車費用",
+      "detail": "原手冊未提供具體金額；網站保留空值，不自行當成免費。",
+      "source": "",
+      "status": "pending"
+    },
+    {
+      "id": "check-routing",
+      "level": "warning",
+      "title": "所有未註明的交通路段",
+      "detail": "沒有官方路由 API 的路段僅顯示位置示意或待估；已註明車程也是原手冊推估，不保證。",
+      "source": "",
+      "status": "pending"
+    }
+  ],
+  "updatedAt": "2026-11-19",
+  "provenance": "來源：2026首爾五天四夜.docx；未查證事項另標記。"
+}

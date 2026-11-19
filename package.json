@@ -1,0 +1,11 @@
+{
+  "name": "seoul-winter-family-trip-notebook",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/data.test.js && node tests/render_smoke.mjs && node tests/render_smoke.mjs --mobile",
+    "artwork": "node scripts/export-art.mjs"
+  }
+}

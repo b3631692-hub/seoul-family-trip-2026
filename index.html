@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#FFFCF6">
+  <meta name="description" content="可編輯的繁體中文首爾家族旅程：行事曆、路線、費用、用品、JSON 與 ICS 備份。">
+  <title>首爾冬日手帖 · 旅程規劃</title>
+  <link rel="icon" href="assets/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-title" content="首爾冬日手帖">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="anonymous">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="anonymous" defer></script>
+  <script src="src/app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#appMain">跳至主要內容</a>
+  <div class="app-shell" id="appShell">
+    <header class="site-header" id="siteHeader" aria-label="旅程資訊">
+      <div class="brand-art" id="brandArt" aria-hidden="true"></div>
+      <div class="header-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> FAMILY TRAVEL NOTEBOOK <span class="eyebrow-separator">／</span> 冬日手帖</div>
+        <h1 id="tripTitle">載入旅程中…</h1>
+        <div class="header-meta" id="tripMeta"></div>
+      </div>
+      <div class="header-stats">
+        <div class="stat-pill"><strong id="tripDays">—</strong><span>旅程天數</span></div>
+        <div class="stat-pill"><strong id="tripPlaces">—</strong><span>行程地點</span></div>
+        <div class="cost-pill" id="headerCostPill"><span class="cost-overline">目前已列金額・韓元</span><div class="cost-pill-main"><strong id="headerCost" aria-live="polite">••••••</strong><button type="button" class="icon-button" id="toggleCost" aria-label="顯示總花費" aria-pressed="false" title="顯示／隱藏已列金額"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button></div></div>
+      </div>
+    </header>
+    <div class="nav-strip">
+      <nav class="main-tabs" aria-label="主要頁面">
+        <button type="button" data-page="planning" class="tab-button active" aria-current="page"><span class="tab-icon">▦</span>行程規劃</button>
+        <button type="button" data-page="expenses" class="tab-button"><span class="tab-icon">◉</span>費用總覽</button>
+        <button type="button" data-page="packing" class="tab-button"><span class="tab-icon">☑</span>攜帶用品</button>
+      </nav>
+      <span class="draft-status" id="draftStatus"><span class="draft-dot"></span>本機草稿・自動儲存</span>
+    </div>
+    <main id="appMain" tabindex="-1" aria-live="off"><div class="loading"><div class="loading-art">❄</div>正在整理你的五日手帖…</div></main>
+    <div class="fab-wrap" id="fabWrap">
+      <div class="fab-menu" id="fabMenu" role="menu" aria-label="旅程工具" hidden>
+        <button type="button" data-tool="add" role="menuitem"><span>＋</span>新增行程</button>
+        <button type="button" data-tool="trip-settings" role="menuitem"><span>⚙</span>旅程設定／旅客</button>
+        <button type="button" data-tool="undo" role="menuitem"><span>↶</span>復原上一步</button>
+        <button type="button" data-tool="export-json" role="menuitem"><span>⇩</span>匯出 JSON</button>
+        <button type="button" data-tool="import-json" role="menuitem"><span>⇧</span>匯入 JSON</button>
+        <button type="button" data-tool="export-ics" role="menuitem"><span>▦</span>匯出 ICS 行事曆</button>
+        <button type="button" data-tool="reset" role="menuitem" class="danger-action"><span>↺</span>還原初始旅程</button>
+      </div>
+      <button type="button" id="fabButton" class="fab" aria-label="開啟旅程工具" aria-expanded="false" aria-controls="fabMenu"><svg viewBox="0 0 24 24" width="27" height="27" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <div id="modalRoot"></div>
+    <input type="file" id="jsonFileInput" accept="application/json,.json" hidden>
+  </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg class="brand-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 251 66" aria-hidden="true"><g fill="none" stroke="#3E3A39" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 58h246" stroke-width="2" opacity=".45"/>
+  <path d="M7 32 19 26h48l13 6-5 5H12Z" fill="#A8D3E6"/><path d="M15 26 24 16h36l10 10Z" fill="#F6D27A"/><path d="M17 36h54v22H17Z" fill="white"/><path d="M27 41v17M58 41v17M38 42h12v16H38Z" fill="#F2A497"/>
+  <g class="brand-train"><rect x="82" y="35" width="95" height="23" rx="9" fill="#B9DAA5"/><path d="M87 46h84" stroke="white" stroke-width="2"/><rect x="95" y="39" width="23" height="12" rx="3" fill="white"/><rect x="125" y="39" width="23" height="12" rx="3" fill="white"/><circle cx="100" cy="57" r="5" fill="#3E3A39"/><circle cx="159" cy="57" r="5" fill="#3E3A39"/><path d="M79 34h77" stroke="#3E3A39" stroke-width="2"/></g>
+  <path d="M198 58 205 13h14l7 45Z" fill="#A8D3E6"/><path d="M204 25h17M202 37h21M199 49h27M212 13V5"/>
+  <path d="m231 48 9-21 9 21Z" fill="#B9DAA5"/><path d="M240 45v13"/>
+  <circle cx="184" cy="17" r="3" fill="#F2A497" stroke-width="1.4"/><path d="M187 25l5 4M187 10l5-2" stroke-width="1.8"/><circle cx="83" cy="14" r="2" fill="#A8D3E6"/><path d="M94 6v6m-3-3h6" stroke="#A8D3E6" stroke-width="2"/>
+  </g></svg>
